@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{768DF293-BAB5-4BA8-818D-B6F15F7B4A27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{52A095EC-229A-4018-88B7-4FD0C1BB8216}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{477939E9-2DFB-4310-9B09-B4FDBA2A0DFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infra", "3-Infra", "{B9D25521-7F94-4B97-AC16-91432F6BF03B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F97AC113-ADC0-4ACF-B7DB-9A1537C620A7}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Worker.Publish.EDA.RabbitMQ.Service", "src\API.Worker.Publish.EDA.RabbitMQ.Service\API.Worker.Publish.EDA.RabbitMQ.Service.csproj", "{0368D6B9-C412-4602-80BC-64534A2A11EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Worker.Publish.EDA.RabbitMQ.Domain", "src\API.Worker.Publish.EDA.RabbitMQ.Domain\API.Worker.Publish.EDA.RabbitMQ.Domain.csproj", "{D2C7FF05-3A48-49DC-B8D8-56280BF9D7D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Worker.Publish.EDA.RabbitMQ.Models", "src\API.Worker.Publish.EDA.RabbitMQ.Models\API.Worker.Publish.EDA.RabbitMQ.Models.csproj", "{AB89E883-23FC-45D7-9ADF-7E1E65D79355}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0368D6B9-C412-4602-80BC-64534A2A11EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0368D6B9-C412-4602-80BC-64534A2A11EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0368D6B9-C412-4602-80BC-64534A2A11EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0368D6B9-C412-4602-80BC-64534A2A11EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C7FF05-3A48-49DC-B8D8-56280BF9D7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C7FF05-3A48-49DC-B8D8-56280BF9D7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C7FF05-3A48-49DC-B8D8-56280BF9D7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C7FF05-3A48-49DC-B8D8-56280BF9D7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB89E883-23FC-45D7-9ADF-7E1E65D79355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB89E883-23FC-45D7-9ADF-7E1E65D79355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB89E883-23FC-45D7-9ADF-7E1E65D79355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB89E883-23FC-45D7-9ADF-7E1E65D79355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52A095EC-229A-4018-88B7-4FD0C1BB8216} = {768DF293-BAB5-4BA8-818D-B6F15F7B4A27}
+		{477939E9-2DFB-4310-9B09-B4FDBA2A0DFE} = {768DF293-BAB5-4BA8-818D-B6F15F7B4A27}
+		{B9D25521-7F94-4B97-AC16-91432F6BF03B} = {768DF293-BAB5-4BA8-818D-B6F15F7B4A27}
+		{0368D6B9-C412-4602-80BC-64534A2A11EA} = {52A095EC-229A-4018-88B7-4FD0C1BB8216}
+		{D2C7FF05-3A48-49DC-B8D8-56280BF9D7D7} = {477939E9-2DFB-4310-9B09-B4FDBA2A0DFE}
+		{AB89E883-23FC-45D7-9ADF-7E1E65D79355} = {B9D25521-7F94-4B97-AC16-91432F6BF03B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DBCBF81-0047-4E62-AAE7-EA891BBCC005}
+	EndGlobalSection
+EndGlobal

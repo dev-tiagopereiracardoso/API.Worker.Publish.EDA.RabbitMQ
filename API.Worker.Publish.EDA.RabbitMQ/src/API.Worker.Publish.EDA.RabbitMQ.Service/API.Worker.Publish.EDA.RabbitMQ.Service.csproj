@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>2ade97f6-6fd0-4002-9449-e2572d40cb5e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.3.0" />
+    <PackageReference Include="MassTransit.Newtonsoft" Version="8.3.0" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Worker.Publish.EDA.RabbitMQ.Domain\API.Worker.Publish.EDA.RabbitMQ.Domain.csproj" />
+    <ProjectReference Include="..\API.Worker.Publish.EDA.RabbitMQ.Models\API.Worker.Publish.EDA.RabbitMQ.Models.csproj" />
+  </ItemGroup>
+
+</Project>
